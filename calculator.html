@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <title>calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+<body>
+    
+    <div id="parent">
+        <FORM id="form" >
+            <input type="text" name="screen" id="display">
+            </FORM><br><br>
+            <button onclick ="printvalue1(this)">1</button>
+            <button onclick ="printvalue2(this)">2</button>
+            <button onclick ="printvalue3(this)">3</button>
+            <button onclick ="printvalueplus(this)">+</button>
+            <br><br>
+            <button onclick ="printvalue4(this)">4</button>
+            <button onclick ="printvalue5(this)">5</button>
+            <button onclick ="printvalue6(this)">6</button>
+            <button onclick ="printvaluem(this)">-</button>
+            <br><br>
+            <button onclick ="printvalue7(this)">7</button>
+            <button onclick ="printvalue8(this)">8</button>
+            <button onclick ="printvalue9(this)">9</button>
+            <button onclick ="printvaluea(this)">*</button>
+            <br><br>
+            <button onclick ="printvalue0(this)">0</button>
+            <button onclick ="printvalue_dot(this)">.</button>
+            <button onclick ="printvalued(this)">/</button>
+            <button onclick ="printvalue_e(this)">=</button>
+            
+            <br><br><br>
+            <button  id="clear" onclick ="printvaluec(this)"     >CLEAR</button>
+ </div>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
